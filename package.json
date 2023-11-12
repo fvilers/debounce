@@ -9,12 +9,20 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvilers/debounce.git"
+  },
   "keywords": [
     "typescript",
     "typescript-library"
   ],
   "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvilers/debounce/issues"
+  },
+  "homepage": "https://github.com/fvilers/debouncel#readme",
   "devDependencies": {
     "typescript": "^5.2.2"
   },
