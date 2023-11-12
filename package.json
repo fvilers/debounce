@@ -1,0 +1,15 @@
+{
+  "name": "debounce",
+  "version": "0.0.0",
+  "description": "A TypeScript friendly function debouncer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "typescript-library"
+  ],
+  "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
+  "license": "MIT"
+}
