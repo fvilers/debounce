@@ -2,14 +2,20 @@
   "name": "debounce",
   "version": "0.0.0",
   "description": "A TypeScript friendly function debouncer",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/debounce.js",
+  "types": "dist/debounce.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "typescript",
     "typescript-library"
   ],
   "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
